@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!--   linking css and javascript -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style1.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+<!--   navigation bar -->
+    <div class="navBar">
+    <img id="icon" src="https://cdn-icons-png.flaticon.com/512/994/994202.png">
+    <div class="topnav">
+      <a href="facts.html">Facts</a>
+      <a href="write.html">Write</a>
+      <a href="media.html">Media</a>
+      <a class="active" href="index.html">Home</a>
+    </div>
+  </div>
+
+<!--   spotify embed -->
+     <h1 id="music">music recommendations!</h1>
+<iframe id="musicrec" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2YHvCjrN6YyaNJEckGBa73?utm_source=generator&theme=0" width="60%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  
+  
+<!-- book recommendations slider 1 -->
+    <h1 id="bookrec">book recommendations!</h1>
+  <div class="center">
+     <div class="book middle">
+        <div class="slides">
+      
+          <div class="slide s1">
+            <img id="atomic" src = "atomic.png">
+          </div>
+
+    
+      
+<!--       <div class="slide s2">
+        <img id="be" src ="becalm.png">
+      </div>
+      
+      <div class="slide s3">
+        <img id="how-to" src="howto.png">
+      </div>
+
+      <div class="slide s4">
+        <img id="stop"  src="stop.png">
+      </div> -->
+
+<!-- creating radios 1-4 in order for user to click to change slide in book recommendations slider -->
+      <div class="navigation">
+        <input type="radio" name="r" id="r1" onclick = "switchImage()">
+        <input type="radio" name="r" id="r2" onclick = "switchImage()">
+        <input type="radio" name="r" id="r3" onclick = "switchImage()">
+        <input type="radio" name="r" id="r4" onclick = "switchImage()">
+      </div>
+      
+        </div>
+     </div>
+  </div>
+
+<!--   podcast recommendations slider 2 -->
+<h1 id="podcast">podcast recommendations!</h1>
+  <div class="podcast middle">
+      <div class="slides">
+      
+        <div class="slide s1">
+          <img id="terrible" src = "terrible.png">
+        </div>
+    
+      
+<!--       <div class="slide s2">
+        <img id="be" src ="becalm.png">
+      </div>
+      
+      <div class="slide s3">
+        <img id="how-to" src="howto.png">
+      </div>
+
+      <div class="slide s4">
+        <img id="stop"  src="stop.png">
+      </div> -->
+
+
+<!--   creating radios 5-8 in order for user to click to change slide in podcast recommendations -->
+      <div class="navigation">
+        <input type="radio" name="r" id="r5" onclick = "switchPodImage()">
+        <input type="radio" name="r" id="r6" onclick = "switchPodImage()">
+        <input type="radio" name="r" id="r7" onclick = "switchPodImage()">
+        <input type="radio" name="r" id="r8" onclick = "switchPodImage()">
+      </div>
+
+
+       
+
+  
+    
+      
+      
+      
+<!--       <div class="slide s2">
+        <img id="be" src ="becalm.png">
+      </div>
+      
+      <div class="slide s3">
+        <img id="how-to" src="howto.png">
+      </div>
+
+      <div class="slide s4">
+        <img id="stop"  src="stop.png">
+      </div> -->
+
+
+      
+      
+  
+        
+          
+         
+           
+    
+<!--   <h1>Media</h1>
+  <figure>
+<img src="https://th.bing.com/th/id/R.390b509897cd687368d140fc8b78fd12?rik=CudmYLpgS8xn8Q&pid=ImgRaw&r=0">
+<figcaption align = "left"><b>Books</b></figcaption>
+</figure>
+<figure>
+<img src="https://th.bing.com/th/id/OIP.axlyThUyGDNQ09ErDeK_EgHaGX?pid=ImgDet&rs=1">
+<figcaption align = "left"><b>Podcasts</b></figcaption>
+</figure> -->
+</body>
+
+
+<script src="script.js"></script>
+<script src="script2.js"></script>

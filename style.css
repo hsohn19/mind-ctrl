@@ -1,0 +1,315 @@
+
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cedarville+Cursive&family=Noto+Sans+JP:wght@700&display=swap');
+
+/* for home and fact page */
+
+html, body {
+  height: 100%;
+  width: 100%;
+
+/* centering, making text black, and making background color pink for home page */
+}
+.homepage{
+text-align: center; 
+padding: 300px;
+text-decoration: none;
+color:black
+}
+.home {
+  background-color: #e6d1d3;
+}
+
+/* making navigation ar gray, to the top right of screen, and when mouse hovers over it, the text becomes black and the box becomes pink */
+.topnav {
+  background-color: #AAABA8; 
+  overflow:hidden;
+  margin-right: 30px;
+  margin-left: 50px;
+  
+}
+.topnav a {
+  float:right;
+  text-align:center;
+  padding: 14px; 
+  text-decoration: none;
+  font-size: 17px;  
+  color: white; 
+}
+.topnav a:hover {
+  background-color:#DBC7C9;
+  color:black;
+}
+
+/* centering and making the background color green for fact page */
+.facts {
+  background-color: #c5cebb;
+}
+.factPage {
+  text-align: center;
+  background-color: #fde3e6; 
+  margin-right: 60px;
+  margin-left: 60px; 
+}
+
+creating 
+.introduction {
+  margin-left: 100px; 
+  margin-right: 100px; 
+  border: 1px, solid, beige;
+}
+.mentalDisorders{
+display:flex; 
+justify-content: center; 
+align-content: center;
+flex-wrap: wrap;
+position: relative;
+
+}
+
+/* altering photos to be consistent in size  */
+img {
+  width: 300px; 
+  height: 400px; 
+  object-fit: cover; 
+  padding: 13px; 
+  margin: 15px; 
+}
+img:hover {
+  opacity: 0.5;
+}
+h4 {
+  display: inline; 
+}
+
+/* editing location for titles */
+.anxietyTitle {
+  margin-left: 100px; 
+}
+.depressionTitle {
+  margin-left: 80px; 
+}
+.ptsdTitle {
+  margin-left: 75px; 
+}
+.substanceTitle{
+  margin-left: 65px;
+}
+
+/* centering briefs of different mental disorders */
+.anxietyBrief {
+  text-align: center; 
+  margin-left: 300px; 
+  margin-right: 300px;
+}
+.depressionBrief {
+  text-align: center; 
+  margin-left: 300px; 
+  margin-right: 300px;
+}
+.ptsdBrief {
+  text-align: center; 
+  margin-left: 300px; 
+  margin-right: 300px;
+}
+.substanceBrief {
+  text-align: center; 
+  margin-left: 300px; 
+  margin-right: 300px;
+}
+
+/* centering symptoms of mental disorders */
+.anxietySymptoms {
+  text-align: center; 
+}
+.depressionSymptoms {
+  text-align: center; 
+}
+.ptsdSymptoms {
+  text-align: center; 
+}
+.substanceSymptoms {
+  text-align: center; 
+}
+/* 
+formatting lists for symptoms of mental disorders */
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
+.hotlines {
+  text-align: center; 
+  margin-top: 70px; 
+  background-color: #fde3e6;
+}
+
+/* centering elements of write page  */
+.write {
+  text-align: center; 
+}
+.intro {
+  text-align: center; 
+}
+.submit {
+  text-align: center; 
+}
+
+/* formatting the logo and main website page */
+#main {
+    width: 1300px;
+    height: 700px;
+    object-fit: cover;
+    margin-left: 8px;
+    margin-top: 20px;
+  }
+
+
+#icon {
+  width: 65px;
+  height: 63px;
+  object-fit: cover;
+  float: left;
+  margin-top: -12px;
+  margin-left: -4px;
+}
+
+h1{
+   font-family: 'Cedarville Cursive', cursive;
+   text-align: center;
+}
+
+/* formatting the basic container of the website to the hot pink and text to be centered */
+.container {
+  background-color: #c67b87;
+  color:  #e6d1d3;
+  text-align: center;
+  margin-top: 25px;
+  padding: 80px;
+  
+}
+
+.title {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 150px;
+}
+
+/* formatting mission statement */
+.missionstatement {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* adjusting location of elements of home page */
+.about {
+  margin-top: 50px;
+}
+
+.meet {
+  margin-top: 180px;
+}
+
+/* formatting cards of the team to be an off white color and to be consistent in size  */
+.card{
+  background-color: blanchedalmond;
+  width: 300px;
+  margin: 10px;
+  margin-top: 100px;
+  border-radius: 15px;
+}
+
+/* .card-image {
+  background-color: blue;
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+} */
+
+/* adjusting location of individual cards */
+#ria {
+  width: 245px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  margin-right: 10px;
+}
+
+#hailey {
+  width: 245px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  margin-right: 35px;
+}
+
+#divine {
+  width: 245px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  margin-right: 35px;
+}
+
+#shaniel {
+  width: 245px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  margin-right: 35px;
+}
+
+/* changing the backgrounds */
+.car-1 {
+  background-image: "ria.jpg";
+}
+
+.car-2 {
+  background-image: ;
+}
+
+.car-3 {
+  background-image: 
+}
+.car-4 {
+  background-image: ;
+}
+
+/* centering elements of home page */
+.container1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+p {
+  text-align: center;
+}
+
+/* making borders on home titles hot pink */
+.home-titles {
+  border: 2px solid #c67b87;
+}
+
+/* formating images in image gallery */
+.img-gallery {
+  width: 82%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+  margin-left: 85px;
+}
+
+.img-gallery img {
+  width: 100%;
+  cursor: pointer;
+}
